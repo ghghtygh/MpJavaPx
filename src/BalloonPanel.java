@@ -38,7 +38,7 @@ class BallonTh extends Thread {
 
 }
 
-class Balloon extends JPanel{
+class BalloonPanel extends JPanel{
 
 	
 	ImageIcon imgIcon = new ImageIcon("images/balloon.jpg");
@@ -47,7 +47,7 @@ class Balloon extends JPanel{
 			java.awt.Image.SCALE_SMOOTH);
 	ImageIcon img = new ImageIcon(scaleImage);
 	
-	Balloon() {
+	BalloonPanel() {
 		
 		System.out.println("Ç³¼±ÆÇ³ÚÃß°¡");
 		setVisible(true);
