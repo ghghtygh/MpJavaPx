@@ -8,6 +8,8 @@ class MainPanel extends JPanel {
 	CardLayout card;
 	MenuPanel menuPanel;
 	Ch12Panel ch12Panel;
+		BalloonPanel balloonPanel;
+		//CountPanel countPanel;
 	Ch13Panel ch13Panel;
 	MainPanel() {
 		
@@ -19,10 +21,16 @@ class MainPanel extends JPanel {
 		menuPanel = new MenuPanel();
 		ch12Panel = new Ch12Panel();
 		ch13Panel = new Ch13Panel();
+		balloonPanel = new BalloonPanel();
+		//countPanel = new CountPanel();
 		
-		add(menuPanel,"1");
-		add(ch12Panel,"12");
-		add(ch13Panel,"13");
+		add(menuPanel,"menu");
+		add(ch12Panel,"ch12");
+			add(balloonPanel,"balloon");
+			//add(countPanel,"count");
+		
+			
+			add(ch13Panel,"ch13");
 		
 		
 	}

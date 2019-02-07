@@ -136,12 +136,12 @@ class MenuPanel extends JPanel {
 				
 				
 				
-				card.show(getParent(),"12");
+				card.show(getParent(),"ch12");
 				
 			}else if(b.getText().equals("13장 연습문제")){
 				
 				
-				card.show(getParent(),"13");
+				card.show(getParent(),"ch13");
 				
 			}else {
 				System.exit(0);
